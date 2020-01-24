@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/encomendar.css">
+    <title>Encomendar</title>
+</head>
+<body>
+    
+    <header>
+        <nav>
+            <ul id="menu">
+                <li id="pLogo"> <a href="index.html">Pastelaria Lina</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="encomendar.html">Encomendar</a></li>
+                <li><a href="contacteNos.html">Contacte-nos</a></li>
+            </ul>
+        </nav>
+
+       <img id="bolo" src="img/food-plate-chocolate-dessert-132694.jpg">
+    
+
+     </header>   
+
+     <form action="" id="formu" >
+
+        <div id="primNome-Div">
+            <input class="input" id="nome-input"  type="text" placeholder="Nome" required>
+        </div>
+
+        <div id="sbNome-Div">
+            <input class="input" id="sbNome-input" type="text" placeholder="Sobrenome" required>
+        </div>
+
+        <div id="email-Div">
+            <input class="input" id="email-input" type="email" placeholder="E-mail" required>
+        </div>
+
+        <div id="tel-Div">
+            <input type="tel" name="" id="tel-input" class="input" placeholder="Telefone" required>
+        </div>
+
+        <!---Para evitar que seja possível seleccionarmos ambos os radios, temos de definir o mesmo name
+        para ambos-->
+        <div id="radio-Div">
+            <label id="lGen" >Gênero : </label><br>
+            <label id="lFem">Femenino</label><input type="radio" name="tGen" id="radioFem-input" checked="checked">
+            <label id="lMasc">Masculino</label><input type="radio" name="tGen" id="radioMasc-input">
+        </div>
+
+        <div id="number-Div">
+            <label id="lQuant">Quantidade</label>
+            <input type="number" name="" id="number-input" class="input" placeholder="Quantidade de produtos a encomendar" min="1" >
+        </div>
+        
+        <div id="recheio-Div">
+            <label id="lRecheio">Recheio</label>
+            <input type="text" name="" id="recheio-input" class="input" placeholder="Recheio">
+        </div>
+
+        <div id="cobertura-Div">
+            <label id="lcobertura">Cobertura</label>
+            <input type="text" name="" id="cobertura-input" class="input" placeholder="Cobertura">
+        </div>
+
+        <div id="descrição-Div">
+            <label id="lDesc">Descrição</label>
+            <textarea name="" id="desc-textarea" cols="50" rows="10" >
+
+            </textarea>
+        </div>
+
+        <input type="submit" value="Encomendar" id="btnSubmit">
+
+     </form>
+
+     <footer id="foot">
+        <img id="mapsIMG" src="img/maps-and-flags-alterado1.png" alt="">
+        <p id="pRua">Rua dos comandos</p>
+       <p id="pLuanda"><b> Luanda, Angola</b> </p>
+    
+       <img id="PhoneIMG" src="img/contato-alterado.png" alt="">
+        <p id="pNumber"> <b> +244 939 751 318 <br> +244 925 680 221</b></p> 
+         
+       <img id="mailIMG" src="img/o-email-alterado.png" alt="">
+       <p id="pMail"> <b> pastelarialinapedro@gmail.com </b> </p>
+    
+       <p id="pSobre"> <b> Sobre Nós </b> </p>
+       <p id="pSomos">Somos uma pastelaria de origem Angolana.. <br>
+           Primamos pela qualidade em nossos serviços e na <br> acessibilidade em  relação aos preços dos produtos.. <br>
+           Além de encomendas individuais também fazemos <br>
+           o buffet completo de eventos , também a preços acessíveis.
+    
+       </p>
+    
+       <div id="divRisc"></div>
+       
+       <p id="pReserv"> &copy; Todos os diretos reservados</p>
+       <p id="pMade">Made by Creuma Kuzola</p>
+    </footer>
+    
+    
+
+</body>
+</html>

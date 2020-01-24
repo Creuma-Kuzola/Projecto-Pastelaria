@@ -1,0 +1,707 @@
+@font-face
+{
+    font-family:"Product Sans";
+    src: url("../fonts/ProductSans-Regular.ttf");
+}    
+    /*font-family:"Nicolls";
+    src: url("../fonts/NICOLLS-Medium.otf");*/
+
+@font-face
+    {
+        font-family:"Nicolls";
+        src: url("../fonts/NICOLLS-Medium.otf");
+    }    
+
+
+* {
+
+    padding: 0;
+    margin: 0;
+    font-family: "Product Sans";
+    
+}
+
+body{
+    overflow-x: hidden;
+}
+
+nav {
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    background-color:black;
+    z-index: 9999;
+}
+
+
+nav #menu {
+    position: fixed;
+    left: 250px;
+    top: 30px;
+   
+}
+
+nav #menu li {
+    display: inline;
+    
+}
+
+nav #menu li a {
+
+    color: #ffffff;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 17px;
+    
+}
+
+nav #menu #pLogo{
+
+    color: #ffffff;
+    position: absolute;
+    top: -4px;
+    left: -210px;
+    background-color:red;
+    padding: 3px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+#divDesc
+{
+
+    background-color:lightgray;
+    width: 100%;
+    height: 70px;
+    /*box-shadow: 3px 3px 6px 3px #eeeeee;*/
+     position: absolute;
+     top: 60px;
+}
+
+#divDesc #pDesc{
+
+    color:black;
+    text-align: center;
+    font-size: 30px;
+    position: absolute;
+    top: 20px;
+    left: 35%;
+    z-index: 1;
+}
+
+#bolo
+{
+    width: 100%;
+}
+
+#pDesc{
+
+    color: #000000;
+    font-size: 28px;
+    text-align: center;
+
+}
+
+.DescB{
+
+    width: 95%;
+    height: 30px;
+    padding: 13px;
+    box-shadow: 4px 6px 4px #dddddd;
+    border-radius: 10px;
+}
+
+#divBChoco{
+
+    position: relative;
+
+}
+
+#divBChoco #sec-DescBChoco{
+
+    background-color: /*#0273bf;*/ #230100;
+    position: relative;
+    left: 25px;
+}
+
+.pDescB
+{
+
+    color: #ffffff;
+    text-align: center;
+    font-size: 24px;
+}
+
+#divBChoco #b1IMG
+{
+    width: 20%;
+    position: relative;
+    left: 50px;
+    top: 30px;
+}
+
+
+#divBChoco #b2IMG
+{
+    width: 20%;
+    position: relative;
+    left: 120px;
+    top: 30px;
+}
+
+
+#divBChoco #b3IMG
+{
+
+    width: 20%;
+    position: relative;
+    left: 200px;
+    top: 30px;
+}
+
+#divBChoco #b4IMG
+{
+
+    width: 14%;
+    position: relative;
+    left: 280px;
+    top: 30px;
+}
+
+.desc{
+
+    width: 20%;
+    height: 50px;
+    border-radius:0px 0px 10px 10px;
+    
+}
+
+.boloChololate{
+
+    background-color:#230100;
+    position: absolute;
+    top: 970px;
+
+}
+
+#divEncomendarBChoco #desc-IMG1{
+
+    position: absolute;
+    left: 50px;
+}
+
+.pDesc{
+
+    color: #ffffff;
+    font-size: 20px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.iconeIMG
+{
+    width: 10%;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+#divEncomendarBChoco #desc-IMG2{
+
+    position: absolute;
+    left: 395px;
+
+}
+
+#divEncomendarBChoco #desc-IMG3{
+
+    position: absolute;
+    left: 747px;
+}
+
+#divEncomendarBChoco #desc-IMG4
+{
+    position: absolute;
+    width: 14%;
+    left:1100px;
+}
+
+#icone4{
+
+    width: 15%;
+}
+
+#sec-DescBPAmeri{
+    background-color: #0273bf;
+    position: relative;
+    left: 25px;
+    top: 70px;
+   
+}
+
+#divBPAmeri
+{
+    position: relative;
+}
+
+#bAmeri1IMG{
+
+    position: absolute;
+    width: 20%;
+    top: 100px;
+    left: 70px;
+}
+
+#bAmeri2IMG{
+
+    position: absolute;
+    width: 18.2%;
+    top: 100px;
+    left: 420px;
+
+}
+
+#bAmeri3IMG{
+
+    position: absolute;
+    width: 20.5%;
+    top: 100px;
+    left: 740px;
+
+}
+
+#bAmeri4IMG{
+
+    position: absolute;
+    width: 14%;
+    top: 100px;
+    left: 1090px;
+
+}
+
+
+#divEncomendarPAmeri
+{
+    position: relative;
+}
+
+.boloPastaAmericana{
+
+    background-color:#0273bf;
+    position: absolute;
+    top:292px;
+
+}
+
+#descPAmeri-IMG1{
+
+    position: absolute;
+    left: 70px;
+
+}
+
+#desc-IMG1 a{
+
+    cursor: pointer;
+}
+
+
+
+
+#descPAmeri-IMG2
+{
+    position: absolute;
+    left: 420px;
+    width:18.2%;
+}
+
+#icone2
+{
+    width: 11%;
+}
+
+#descPAmeri-IMG3{
+
+    position: absolute;
+    left: 740px;
+    width:20.5%;
+}
+
+#descPAmeri-IMG4
+{
+    position: absolute;
+    left: 1090px;
+    width: 14%;
+
+}
+
+#divBPAmeri1{
+
+    position: relative;
+    top: 380px;
+}
+
+#bAmeri5IMG{
+
+    position: absolute;
+    left:30px;
+    width: 24.5%;
+}
+
+#bAmeri6IMG{
+
+    position: absolute;
+    left: 420px;
+    width: 18.2%;
+}
+
+
+#bAmeri7IMG{
+
+    position: absolute;
+    left: 770px;
+    width: 16.3%;
+}
+
+#bAmeri8IMG{
+
+    position: absolute;
+    left: 1090px;
+    width: 14%;
+}
+
+
+#divEncomendarPAmeri1
+{
+    position: relative;
+    top: 343px;
+}
+
+
+#descPAmeri-IMG5{
+
+    position: absolute;
+    width: 19%;
+    left: 70px;
+}
+
+#descPAmeri-IMG6{
+
+    position: absolute;
+    width: 18.2%;
+    left:420px;
+    top: 294px;
+}
+
+#icone6{
+
+    width: 11%;
+}
+
+#descPAmeri-IMG7{
+
+    position: absolute;
+    width: 16.4%;
+    left:768px;
+    top: 297px;
+}
+
+#icone7{
+
+    width: 12%;
+}
+
+#descPAmeri-IMG8
+{
+    position: absolute;
+    width: 14%;
+    left:1090px;
+    top: 297px;
+}
+
+#icone8{
+
+    width: 14%;
+
+}
+
+
+#sec-DescCGlace{
+
+    background-color: #b55477;
+    position: relative;
+    left: 25px;
+    top: 670px;
+
+}
+
+#divCGlace{
+
+    position: relative;
+    top: 650px;
+}
+
+#bCGlace1IMG{
+
+    position:absolute;
+    width: 19%;
+    left: 80px;
+}
+
+
+#bCGlace2IMG{
+
+    position:absolute;
+    width: 15.9%;
+    left: 430px;
+}
+
+#bCGlace3IMG{
+
+    position:absolute;
+    width: 16.5%;
+    left: 740px;
+}
+
+#bCGlace4IMG{
+
+    position:absolute;
+    width: 17%;
+    left: 1050px;
+
+}
+
+#divEncomendarCGlace
+{
+    position: relative;
+    top: 550px;
+}
+.boloComGlace{
+
+    background-color:#b55477;
+    position: absolute;
+    top:292px;
+
+}
+
+#descPCGlace-IMG1
+{
+    position: absolute;
+    left: 78px;
+    width: 19%;
+
+}
+
+#descPCGlace-IMG2
+{
+
+    position: absolute;
+    left: 430px;
+    width: 16%;
+}
+
+#descPCGlace-IMG3{
+
+    position: absolute;
+    left: 740px;
+    width: 16.5%;
+}
+
+#descPCGlace-IMG4
+{
+    position: absolute;
+    left: 1050px;
+    width: 17%;
+
+}
+
+#sec-DescSalgados{
+
+    background-color: #8B4726;
+    position: relative;
+    left: 25px;
+    top: 950px;
+}
+
+#divSalgados{
+
+    position: relative;
+    top:1000px;
+}
+
+#salgadosIMG1{
+
+    position: absolute;
+    width: 16%;
+    left: 90px;
+}
+
+#salgadosIMG2{
+
+    position: absolute;
+    width: 18.5%;
+    left: 400px;
+}
+
+#salgadosIMG3{
+
+    position: absolute;
+    width: 15%;
+    left: 740px;
+}
+
+#salgadosIMG4{
+
+    position: absolute;
+    width: 16%;
+    left: 1040px;
+
+}
+
+.salgados{
+
+    background-color:#8B4726;
+    position: absolute;
+    top:292px;
+    width: 16%;
+}
+
+#divEncomendarSalgados{
+
+    position: relative;
+    top: 885px;
+}
+
+#descSalgados-IMG1{
+
+    position: absolute;
+    left: 90px;
+}
+
+#descSalgados-IMG2{
+
+    position: absolute;
+    left: 400px;
+    width: 18.5%;
+}
+
+#descSalgados-IMG3{
+
+    position: absolute;
+    left: 740px;
+    width: 15%;
+}
+
+#descSalgados-IMG4
+{
+    position: absolute;
+    left: 1040px;
+    width: 16%;
+
+}
+
+#foot{
+
+    position: relative;
+    bottom: -1270px;
+    background-color: #000000;
+    width: 100%;
+    font-family:"Nicolls";
+    height: 330px;
+    color: #ffffff;
+}
+
+#pRua
+{
+    position: absolute;
+    top: 40px;
+    left: 145px;
+}
+
+#pLuanda{
+
+    position: absolute;
+    top: 65px;
+    left: 145px;
+    font-size: 17px;
+}
+
+#mapsIMG{
+
+    position: absolute;
+    width: 3.5%;
+    left: 6%;
+    top: 35px;
+}
+
+
+#PhoneIMG{
+
+    position: absolute;
+    width: 4%;
+    left: 6%;
+    top: 110px;
+}
+
+#pNumber{
+
+    position: absolute;
+    top: 120px;
+    left: 10.8%;
+}
+
+#mailIMG{ 
+
+    position: absolute;
+    top: 185px;
+    width: 3%;
+    left: 6%;
+}
+
+#pMail
+{
+    position: absolute;
+    top: 195px;
+    left: 10.8%;
+
+}
+
+#pSobre{
+
+    position: absolute;
+    left: 65%;
+    top: 15%;
+    font-size: 18px;
+}
+
+#pSomos
+{
+    position: absolute;
+    left: 65%;
+    top: 30%;
+}
+
+
+#divRisc{
+
+    position: absolute;
+    top: 250px;
+    border: 0.5px solid gray;
+    width: 100%;   
+}
+
+#pReserv{
+
+    position: absolute;
+    top: 270px;
+    left: 41%;
+}
+
+#pMade{
+
+    position: absolute;
+    top: 290px;
+    left: 42.5%;
+}
+

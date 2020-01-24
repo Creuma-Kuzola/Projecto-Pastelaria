@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<!-- saved from url=(0114)https://codepen.io/hermit/embed/Wvvpqd?height=300&slug-hash=Wvvpqd&default-tab=result&host=http%3A%2F%2Fcodepen.io -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="viewport" content="width=device-width">
+<title>CodePen Embed - Simple CSS Grid Layout 3</title>
+<meta name="csrf-param" content="authenticity_token">
+<meta name="csrf-token" content="Zq8w+V8Fey63M1hFdWti/rNqMm3GLSqu7vyNC1Y/PSmEqh9fGmL26bh7w11a11p0+nc+AFCii/57kFI+1LSrFw==">
+<link rel="stylesheet" media="all" href="./embed-c85750d5268bca3e251eb8b9bc40e1afbdc02849a11e0a6710b50b2f54e65c8d.css">
+<style>
+    .hide {
+      display: none !important;
+    }
+
+    .embed-footer,
+    .embed-nav {
+      background: #3d3d3e;
+      
+    }
+    .embed-nav .code-types a,
+    .embed-nav .result-button-list a,
+    .action-button {
+      color: #ffffff;
+      background-color: #666666;
+    }
+    .embed-nav .code-types a.active,
+    .embed-nav .result-button-list a.active,
+    .action-button.active {
+      background: #888888;
+      color: #ffffff;
+      box-shadow: inset 0px 3px #dddddd;
+    }
+    .embed-nav .logo-wrap a {
+      color: #ffffff;
+    }
+
+    .embed-nav svg {
+      stroke: #ffffff !important;
+    }
+  </style>
+<link rel="stylesheet" media="all" href="./twilight-1384711dde26dace772d921a7aec83b44bfe4bfda4f990cf1c049737be68ea70.css">
+</head>
+<body id="the-body" style="border: 1px solid #555555; --borderWidth: 1px;" class="codepen-embed-body static results-active">
+<nav class="embed-nav group" id="embed-nav">
+<ul class="code-types">
+<li class="code-type">
+<a id="html-link" href="https://codepen.io/hermit/embed/Wvvpqd?height=300&amp;slug-hash=Wvvpqd&amp;default-tab=result&amp;host=http%3A%2F%2Fcodepen.io#html-box" aria-pressed="false" role="button">
+HTML
+</a>
+</li>
+<li class="code-type">
+<a id="css-link" href="https://codepen.io/hermit/embed/Wvvpqd?height=300&amp;slug-hash=Wvvpqd&amp;default-tab=result&amp;host=http%3A%2F%2Fcodepen.io#css-box" aria-pressed="false" role="button">
+CSS
+</a>
+</li>
+</ul>
+<ul class="result-button-list">
+<li class="results results-type">
+<a id="result-link" href="https://codepen.io/hermit/embed/Wvvpqd?height=300&amp;slug-hash=Wvvpqd&amp;default-tab=result&amp;host=http%3A%2F%2Fcodepen.io#result-box" class="active" aria-pressed="true" role="button">
+Result
+</a>
+</li>
+</ul>
+<div class="logo-wrap" id="edit-area">
+<a class="large-logo edit-on-codepen" target="_blank" rel="noopener" href="https://codepen.io/hermit/pen/Wvvpqd" title="Edit on CodePen">
+<span id="edit-on-text" class="open-on">EDIT ON</span>
+<svg id="embed-codepen-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 138 26" fill="none" stroke="#000" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round">
+<path d="M80 6h-9v14h9 M114 6h-9 v14h9 M111 13h-6 M77 13h-6 M122 20V6l11 14V6 M22 16.7L33 24l11-7.3V9.3L33 2L22 9.3V16.7z M44 16.7L33 9.3l-11 7.4 M22 9.3l11 7.3 l11-7.3 M33 2v7.3 M33 16.7V24 M88 14h6c2.2 0 4-1.8 4-4s-1.8-4-4-4h-6v14 M15 8c-1.3-1.3-3-2-5-2c-4 0-7 3-7 7s3 7 7 7 c2 0 3.7-0.8 5-2 M64 13c0 4-3 7-7 7h-5V6h5C61 6 64 9 64 13z"></path>
+</svg>
+</a>
+<a class="box-logo edit-on-codepen" target="_blank" rel="noopener" href="https://codepen.io/hermit/pen/Wvvpqd" title="Edit on CodePen">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="20 0 26 26" fill="none" stroke="#000" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round">
+<path id="icon-codepen-box" d="M22 16.7L33 24l11-7.3V9.3L33 2L22 9.3V16.7z M44 16.7L33 9.3l-11 7.4 M22 9.3l11 7.3 l11-7.3 M33 2v7.3 M33 16.7V24"></path>
+</svg>
+</a>
+</div>
+</nav>
+<div id="output" data-border-style="thin" data-header="true">
+<div id="html-box" class="code-wrap code-box box " role="region" aria-label="HTML">
+<pre><code data-lang="htmlmixed" id="actual-html-code" data-og-lang="htmlmixed" data-alt-lang="xml" class=" cm-s-default"><span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">div</span> <span class="cm-attribute">class</span>=<span class="cm-string">"sidebar"</span><span class="cm-tag cm-bracket">&gt;</span><span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">h2</span><span class="cm-tag cm-bracket">&gt;</span>Sidebar<span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">h2</span><span class="cm-tag cm-bracket">&gt;</span><span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">div</span><span class="cm-tag cm-bracket">&gt;</span><br><br> <span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">div</span> <span class="cm-attribute">class</span>=<span class="cm-string">"main"</span><span class="cm-tag cm-bracket">&gt;</span><br>   <span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">h2</span><span class="cm-tag cm-bracket">&gt;</span>Main<span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">h2</span><span class="cm-tag cm-bracket">&gt;</span><br>    <span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">p</span><span class="cm-tag cm-bracket">&gt;</span>Removed '-ms-' prefixes in css.<span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">p</span><span class="cm-tag cm-bracket">&gt;</span>  <span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">p</span> <span class="cm-attribute">id</span> = <span class="cm-string">'my-Bad'</span><span class="cm-tag cm-bracket">&gt;</span>Still only get one column regardless of browser size.<span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">p</span><span class="cm-tag cm-bracket">&gt;</span>  <br>    <span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">p</span><span class="cm-tag cm-bracket">&gt;</span>Oh, I forgot to enable “Experimental Web Platform Features” flag in Chrome browser.<span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">p</span><span class="cm-tag cm-bracket">&gt;</span>  <br>    <span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">p</span><span class="cm-tag cm-bracket">&gt;</span>There, that's better.  :)<span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">p</span><span class="cm-tag cm-bracket">&gt;</span>  <br><span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">div</span><span class="cm-tag cm-bracket">&gt;</span><br>   <br><span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">div</span> <span class="cm-attribute">class</span>=<span class="cm-string">"footer"</span><span class="cm-tag cm-bracket">&gt;</span><span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">h2</span><span class="cm-tag cm-bracket">&gt;</span>Footer<span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">h2</span><span class="cm-tag cm-bracket">&gt;</span><span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">div</span><span class="cm-tag cm-bracket">&gt;</span><br><br><span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">div</span> <span class="cm-attribute">class</span>=<span class="cm-string">"header"</span><span class="cm-tag cm-bracket">&gt;</span><span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">h2</span><span class="cm-tag cm-bracket">&gt;</span>Header<span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">h2</span><span class="cm-tag cm-bracket">&gt;</span><span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">div</span><span class="cm-tag cm-bracket">&gt;</span><br><br><span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">div</span> <span class="cm-attribute">class</span>=<span class="cm-string">"ads"</span><span class="cm-tag cm-bracket">&gt;</span><br>  <span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">h2</span><span class="cm-tag cm-bracket">&gt;</span>Ads<span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">h2</span><span class="cm-tag cm-bracket">&gt;</span><br>  <span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">img</span> <span class="cm-attribute">src</span>=<span class="cm-string">"http://lorempixel.com/200/200/business/"</span> <span class="cm-tag cm-bracket">/&gt;</span><br>  <span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">img</span> <span class="cm-attribute">src</span>=<span class="cm-string">"http://lorempixel.com/200/200/city/"</span> <span class="cm-tag cm-bracket">/&gt;</span><br>  <span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">img</span> <span class="cm-attribute">src</span>=<span class="cm-string">"http://lorempixel.com/200/200/animals/"</span> <span class="cm-tag cm-bracket">/&gt;</span><br><span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">div</span><span class="cm-tag cm-bracket">&gt;</span></code></pre>
+</div>
+<div id="css-box" class="code-wrap code-box box " role="region" aria-label="CSS">
+<pre><code data-lang="css" id="actual-css-code" data-og-lang="css" data-alt-lang="css" class=" cm-s-default">* {<br>  <span class="cm-property">box-sizing</span>: <span class="cm-atom">border-box</span>;<br>}<br><br><span class="cm-tag">html</span>,<br><span class="cm-tag">body</span> {<br>  <span class="cm-property">height</span>: <span class="cm-number">100%</span>;<br>}<br><br><span class="cm-tag">body</span> {<br>  <span class="cm-property">padding</span>: <span class="cm-number">10px</span>;<br>  <span class="cm-property">display</span>: <span class="cm-atom">grid</span>;<br>  <span class="cm-property cm-error">grid-columns</span>: <span class="cm-number">200px</span> <span class="cm-number">15px</span> <span class="cm-number">1fr</span> <span class="cm-number">15px</span> <span class="cm-number">100px</span>;<br>  <span class="cm-property cm-error">grid-rows</span>: <span class="cm-atom">auto</span> <span class="cm-number">15px</span> <span class="cm-atom">auto</span> <span class="cm-number">15px</span> <span class="cm-atom">auto</span>;<br>}<br><br><span class="cm-qualifier">.content</span> {<br>  <span class="cm-property">background</span>: <span class="cm-keyword">beige</span>;<br>  <span class="cm-property">padding</span>: <span class="cm-number">0</span>;<br>}<br><br><span class="cm-qualifier">.header</span> {<br>  <span class="cm-property">background</span>: <span class="cm-keyword">tomato</span>;<br>  <span class="cm-property cm-error">grid-column-span</span>: <span class="cm-number">5</span>;<br>  <span class="cm-property">grid-row</span>: <span class="cm-number">1</span>;<br>}<br><br><span class="cm-qualifier">.footer</span> {<br>  <span class="cm-property">background</span>: <span class="cm-keyword">deepskyblue</span>;<br>}<br><br><span class="cm-qualifier">.footer</span> {<br>  <span class="cm-property">background</span>: <span class="cm-keyword">deepskyblue</span>;<br>  <span class="cm-property">grid-row</span>: <span class="cm-number">5</span>;<br>  <span class="cm-property cm-error">grid-column-span</span>: <span class="cm-number">5</span>;<br>}<br><br><span class="cm-qualifier">.main</span> {<br>  <span class="cm-property">background</span>: <span class="cm-keyword">orangered</span>;<br>  <span class="cm-property">grid-column</span>: <span class="cm-number">3</span>;<br>  <span class="cm-property">grid-row</span>: <span class="cm-number">3</span>;<br>}<br><br><span class="cm-qualifier">.sidebar</span> {<br>  <span class="cm-property">background</span>: <span class="cm-keyword">green</span>;<br>  <span class="cm-property">grid-column</span>: <span class="cm-number">1</span>;<br>  <span class="cm-property">grid-row</span>: <span class="cm-number">3</span>;<br>}<br><br><span class="cm-qualifier">.ads</span> {<br>  <span class="cm-property">background</span>: <span class="cm-keyword">gold</span>;<br>  <span class="cm-property">grid-column</span>: <span class="cm-number">5</span>;<br>  <span class="cm-property">grid-row</span>: <span class="cm-number">3</span>;<br>}<br><br><span class="cm-tag">h2</span> {<br>  <span class="cm-property">margin-top</span>: <span class="cm-number">0</span>;<br>}<br><br><span class="cm-tag">img</span> {<br>  <span class="cm-property">display</span>: <span class="cm-atom">block</span>;<br>  <span class="cm-property">max-width</span>: <span class="cm-number">100%</span>;<br>  <span class="cm-property">width</span>: <span class="cm-atom">auto</span>;<br>  <span class="cm-property">margin</span>: <span class="cm-number">0</span> <span class="cm-atom">auto</span> <span class="cm-number">10px</span>;<br>}<br><br><span class="cm-tag">div</span> {<br>  <span class="cm-property">color</span>: <span class="cm-keyword">black</span>;<br>  <span class="cm-property">padding</span>: <span class="cm-number">10px</span>;<br>}<br><br><span class="cm-tag">p</span> {<br>  <span class="cm-property">margin</span>: <span class="cm-number">0</span> <span class="cm-number">0</span> <span class="cm-number">1em</span> <span class="cm-number">0</span>;<br>}<br><br><span class="cm-builtin">#my-Bad</span> {<br>  <span class="cm-property">text-decoration</span>: <span class="cm-atom">line-through</span>;<br>}<br><br><span class="cm-def">@media</span> <span class="cm-attribute">all</span> <span class="cm-keyword">and</span> (<span class="cm-property">max-width</span>: <span class="cm-number">600px</span>) {<br>  <span class="cm-tag">body</span> {<br>    <span class="cm-property cm-error">grid-columns</span>: <span class="cm-number">1fr</span>;<br>    <span class="cm-property cm-error">grid-rows</span>: <span class="cm-atom">auto</span> (<span class="cm-number">1%</span> <span class="cm-atom">auto</span>)[<span class="cm-number">4</span>];<br>  }<br>  <span class="cm-qualifier">.header</span>,<br>  <span class="cm-qualifier">.ads</span>,<br>  <span class="cm-qualifier">.sidebar</span>,<br>  <span class="cm-qualifier">.main</span>,<br>  <span class="cm-qualifier">.footer</span> {<br>    <span class="cm-property">grid-column</span>: <span class="cm-number">1</span>;<br>  }<br>  <span class="cm-qualifier">.header</span> {<br>    <span class="cm-property">grid-row</span>: <span class="cm-number">1</span>;<br>  }<br>  <span class="cm-qualifier">.ads</span> {<br>    <span class="cm-property">grid-row</span>: <span class="cm-number">3</span>;<br>  }<br>  <span class="cm-qualifier">.main</span> {<br>    <span class="cm-property">grid-row</span>: <span class="cm-number">5</span>;<br>  }<br>  <span class="cm-qualifier">.sidebar</span> {<br>    <span class="cm-property">grid-row</span>: <span class="cm-number">7</span>;<br>  }<br>  <span class="cm-qualifier">.footer</span> {<br>    <span class="cm-property">grid-row</span>: <span class="cm-number">9</span>;<br>  }<br>  <span class="cm-qualifier">.ads</span> {<br>    <span class="cm-property">display</span>: <span class="cm-atom">grid</span>;<br>    <span class="cm-property cm-error">grid-columns</span>: <span class="cm-number">1%</span> (<span class="cm-number">32%</span> <span class="cm-number">1%</span>)[<span class="cm-number">3</span>];<br>    <span class="cm-property cm-error">grid-rows</span>: <span class="cm-number">2</span>;<br>  }<br>  <span class="cm-qualifier">.ads</span> <span class="cm-tag">h2</span> {<br>    <span class="cm-property">grid-row</span>: <span class="cm-number">1</span>;<br>    <span class="cm-property cm-error">grid-column-span</span>: <span class="cm-number">3</span>;<br>  }<br>  <span class="cm-qualifier">.ads</span> <span class="cm-tag">img</span> {<br>    <span class="cm-property">margin</span>: <span class="cm-number">0</span>;<br>    <span class="cm-property">grid-row</span>: <span class="cm-number">2</span>;<br>  }<br>  <span class="cm-qualifier">.ads</span> <span class="cm-tag">img</span>:<span class="cm-variable cm-callee">nth-of-type</span>(<span class="cm-number">1</span>) {<br>    <span class="cm-property">grid-column</span>: <span class="cm-number">2</span>;<br>  }<br>  <span class="cm-qualifier">.ads</span> <span class="cm-tag">img</span>:<span class="cm-variable cm-callee">nth-of-type</span>(<span class="cm-number">2</span>) {<br>    <span class="cm-property">grid-column</span>: <span class="cm-number">4</span>;<br>  }<br>  <span class="cm-qualifier">.ads</span> <span class="cm-tag">img</span>:<span class="cm-variable cm-callee">nth-of-type</span>(<span class="cm-number">3</span>) {<br>    <span class="cm-property">grid-column</span>: <span class="cm-number">6</span>;<br>  }<br>}</code></pre>
+</div>
+<div id="result-box" class="code-box active" role="region" aria-label="Result">
+<iframe id="result-iframe" class="result-iframe " sandbox="allow-forms allow-modals allow-pointer-lock allow-popups allow-presentation allow-same-origin allow-scripts" allow="geolocation; microphone; camera; midi; vr; accelerometer; gyroscope; payment; ambient-light-sensor; encrypted-media" tabindex="-1" data-src="https://cdpn.io/hermit/fullembedgrid/Wvvpqd?type=embed&amp;animations=run" src="./Wvvpqd.html" allowtransparency="true" frameborder="0" scrolling="yes" allowpaymentrequest="true" allowfullscreen="true" name="CodePen Preview for Simple CSS Grid Layout 3" title="CodePen Preview for Simple CSS Grid Layout 3">
+      </iframe>
+</div>
+<div id="about-box">
+<div class="about-container">
+<div class="about-user">
+<a href="https://codepen.io/hermit" target="_blank" rel="noopener" class="about-image" style="background-image: url(https://gravatar.com/avatar/ca96d91bce208d19737d58077a7772ef?s=512&amp;d=https://static.codepen.io/assets/avatars/user-avatar-512x512-6e240cf350d2f1cc07c2bed234c3a3bb5f1b237023c204c782622e80d6b212ba.png)"></a>
+<div class="about-user-info">
+<p>
+This Pen is owned by <a href="https://codepen.io/hermit" target="_blank" rel="noopener">Al Street</a> on <a href="https://codepen.io/" target="_blank" rel="noopener">CodePen</a>.
+It is a fork of <a href="https://cdpn.io/HugoGiraudel/fullpage/nwbkr?default-tab=result&amp;height=300&amp;host=http%3A%2F%2Fcodepen.io&amp;slug-hash=Wvvpqd">this Pen.</a>
+</p>
+<p>
+<a href="https://codepen.io/hermit" target="_blank" rel="noopener" class="about-user-more">
+See more by @hermit on CodePen
+</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="resources-box" class="resources-box">
+<h3>External CSS</h3>
+<p>
+This Pen doesn't use any external CSS resources.
+</p>
+<h3>External JavaScript</h3>
+<ol class="list-of-resources">
+<li>
+<a href="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js" target="_blank">https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js</a>
+</li>
+</ol>
+</div>
+</div>
+<footer class="embed-footer" id="embed-footer">
+<button id="resources-link" class="resources-link action-button bottom left" href="#resources-box" aria-pressed="false" role="button">
+Resources
+</button>
+<ul class="scaling-choices bottom right">
+<li><button class="action-button active" id="zoom-button-1">1×</button></li><li><button class="action-button" id="zoom-button-05">0.5×</button></li><li><button class="action-button" id="zoom-button-025">0.25×</button></li>
+</ul>
+<button id="rerun-button" class="action-button rerun-button bottom right">
+Rerun
+</button>
+</footer>
+<script>
+    __processedPen = {"html":"&lt;div class=&quot;sidebar&quot;&gt;&lt;h2&gt;Sidebar&lt;/h2&gt;&lt;/div&gt;\n\n &lt;div class=&quot;main&quot;&gt;\n   &lt;h2&gt;Main&lt;/h2&gt;\n    &lt;p&gt;Removed &#39;-ms-&#39; prefixes in css.&lt;/p&gt;  &lt;p id = &#39;my-Bad&#39;&gt;Still only get one column regardless of browser size.&lt;/p&gt;  \n    &lt;p&gt;Oh, I forgot to enable “Experimental Web Platform Features” flag in Chrome browser.&lt;/p&gt;  \n    &lt;p&gt;There, that&#39;s better.  :)&lt;/p&gt;  \n&lt;/div&gt;\n   \n&lt;div class=&quot;footer&quot;&gt;&lt;h2&gt;Footer&lt;/h2&gt;&lt;/div&gt;\n\n&lt;div class=&quot;header&quot;&gt;&lt;h2&gt;Header&lt;/h2&gt;&lt;/div&gt;\n\n&lt;div class=&quot;ads&quot;&gt;\n  &lt;h2&gt;Ads&lt;/h2&gt;\n  &lt;img src=&quot;http://lorempixel.com/200/200/business/&quot; /&gt;\n  &lt;img src=&quot;http://lorempixel.com/200/200/city/&quot; /&gt;\n  &lt;img src=&quot;http://lorempixel.com/200/200/animals/&quot; /&gt;\n&lt;/div&gt;","css":"* {\n  box-sizing: border-box;\n}\n\nhtml,\nbody {\n  height: 100%;\n}\n\nbody {\n  padding: 10px;\n  display: grid;\n  grid-columns: 200px 15px 1fr 15px 100px;\n  grid-rows: auto 15px auto 15px auto;\n}\n\n.content {\n  background: beige;\n  padding: 0;\n}\n\n.header {\n  background: tomato;\n  grid-column-span: 5;\n  grid-row: 1;\n}\n\n.footer {\n  background: deepskyblue;\n}\n\n.footer {\n  background: deepskyblue;\n  grid-row: 5;\n  grid-column-span: 5;\n}\n\n.main {\n  background: orangered;\n  grid-column: 3;\n  grid-row: 3;\n}\n\n.sidebar {\n  background: green;\n  grid-column: 1;\n  grid-row: 3;\n}\n\n.ads {\n  background: gold;\n  grid-column: 5;\n  grid-row: 3;\n}\n\nh2 {\n  margin-top: 0;\n}\n\nimg {\n  display: block;\n  max-width: 100%;\n  width: auto;\n  margin: 0 auto 10px;\n}\n\ndiv {\n  color: black;\n  padding: 10px;\n}\n\np {\n  margin: 0 0 1em 0;\n}\n\n#my-Bad {\n  text-decoration: line-through;\n}\n\n@media all and (max-width: 600px) {\n  body {\n    grid-columns: 1fr;\n    grid-rows: auto (1% auto)[4];\n  }\n  .header,\n  .ads,\n  .sidebar,\n  .main,\n  .footer {\n    grid-column: 1;\n  }\n  .header {\n    grid-row: 1;\n  }\n  .ads {\n    grid-row: 3;\n  }\n  .main {\n    grid-row: 5;\n  }\n  .sidebar {\n    grid-row: 7;\n  }\n  .footer {\n    grid-row: 9;\n  }\n  .ads {\n    display: grid;\n    grid-columns: 1% (32% 1%)[3];\n    grid-rows: 2;\n  }\n  .ads h2 {\n    grid-row: 1;\n    grid-column-span: 3;\n  }\n  .ads img {\n    margin: 0;\n    grid-row: 2;\n  }\n  .ads img:nth-of-type(1) {\n    grid-column: 2;\n  }\n  .ads img:nth-of-type(2) {\n    grid-column: 4;\n  }\n  .ads img:nth-of-type(3) {\n    grid-column: 6;\n  }\n}","js":""};
+    __preprocessorNames = {
+      "html": "HTML",
+      "css": "CSS",
+      "js": "JS"
+    };
+    __pageType = "embed";
+    __editable = false;
+    __embed_prefill = false;
+    __env = "production";
+  </script>
+<script src="./embed-166172e79150f4949af75ccd11b36d6ec62a8b742e2d3393478bfa04ce0faee8.js"></script>
+
+
+</body></html>

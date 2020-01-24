@@ -1,0 +1,285 @@
+@font-face
+{
+    font-family:"Product Sans";
+    src: url("../fonts/ProductSans-Regular.ttf");
+
+}
+* {
+
+    padding: 0;
+    margin: 0;
+    font-family: "Product Sans";
+}
+
+nav {
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    background-color:black;
+    z-index: 9999;
+}
+
+
+
+body{
+
+    overflow-x: hidden;
+}
+
+ #bolo{
+
+    width: 100%;
+    position: absolute;
+    top: 50px;
+}
+
+nav #menu {
+    position: fixed;
+    left: 250px;
+    top: 30px;
+   
+}
+
+body a {
+
+    cursor: pointer;
+    color: #000000;
+}
+nav #menu li {
+    display: inline;
+    
+}
+
+nav #menu li a {
+
+    color: #ffffff;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 17px;
+    
+}
+
+nav #menu #pLogo{
+
+    color: #ffffff;
+    position: absolute;
+    top: -4px;
+    left: -210px;
+    background-color:red;
+    padding: 3px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+#pProd {
+position: relative;
+top:600px ;
+color:black;
+font-size: 40px;
+text-align: center;
+
+}
+
+#boloChocolateImg{
+
+    position: absolute;
+    top: 680px;
+    width: 285px;
+    left: 110px;
+}
+
+#boloPastaImg{
+
+    position: absolute;
+    top: 680px;  
+    width: 285px;
+    left: 420px;
+   
+}
+
+
+#boloGlaceImg
+{
+    position: absolute;
+    top: 680px;
+    width: 255px;
+    left: 730px;
+}
+
+#conxinhaImg
+{
+    position: absolute;
+    top: 680px;
+    width:235px;
+    left:1010px;
+}
+
+#pbChocolate
+{
+
+    position: absolute;
+    top:880px;
+    left: 160px;
+    font-size: 20px;
+    
+}
+
+#pbpAmericana
+{
+    position: absolute;
+    top:880px;
+    font-size: 20px;
+    left: 500px;
+}
+
+#pSpan1{
+
+    position: absolute;
+    top: 900px;
+    left: 480px;
+    font-size: 20px;
+}
+
+#pbGlace
+{
+
+    position: absolute;
+    top: 880px;
+    font-size: 20px;
+    left: 800px;
+
+}
+
+#pSpan2{
+
+    position: absolute;
+    top: 900px;
+    left: 780px;
+    font-size: 20px;
+
+}
+
+#pbSalgados{
+
+    position: absolute;
+    top: 880px;
+    font-size: 20px;
+    left: 1080px;
+}
+
+#pSpan3
+{
+    position: absolute;
+    top: 900px;
+    left: 1040px;
+    font-size: 20px;
+}
+
+
+
+#foot{
+
+    position: relative;
+    bottom: -940px;
+    background-color: #000000;
+    width: 100%;
+    font-family:"Nicolls";
+    height: 330px;
+    color: #ffffff;
+}
+
+#pRua
+{
+    position: absolute;
+    top: 40px;
+    left: 145px;
+}
+
+#pLuanda{
+
+    position: absolute;
+    top: 65px;
+    left: 145px;
+    font-size: 17px;
+}
+
+#mapsIMG{
+
+    position: absolute;
+    width: 3.5%;
+    left: 6%;
+    top: 35px;
+}
+
+
+#PhoneIMG{
+
+    position: absolute;
+    width: 4%;
+    left: 6%;
+    top: 110px;
+}
+
+#pNumber{
+
+    position: absolute;
+    top: 120px;
+    left: 10.8%;
+}
+
+#mailIMG{ 
+
+    position: absolute;
+    top: 185px;
+    width: 3%;
+    left: 6%;
+}
+
+#pMail
+{
+    position: absolute;
+    top: 195px;
+    left: 10.8%;
+
+}
+
+#pSobre{
+
+    position: absolute;
+    left: 65%;
+    top: 15%;
+    font-size: 18px;
+}
+
+#pSomos
+{
+    position: absolute;
+    left: 65%;
+    top: 30%;
+}
+
+
+#divRisc{
+
+    position: absolute;
+    top: 250px;
+    border: 0.5px solid gray;
+    width: 100%;   
+}
+
+#pReserv{
+
+    position: absolute;
+    top: 270px;
+    left: 41%;
+}
+
+#pMade{
+
+    position: absolute;
+    top: 290px;
+    left: 42.5%;
+}
+
+
+
